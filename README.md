@@ -51,3 +51,9 @@ The implementation of the encode function is based on a lookup table that maps t
 The function uses Solidity's assembly block to perform low-level operations. It first calculates the length of the resulting Base64 string and allocates memory for it. Then, it loops through the binary data in chunks of 3 bytes at a time and encodes them as a 4-character Base64 string. If the input data is not a multiple of 3 bytes, the function pads the output string with = characters as necessary.
 
 Once the encoding is complete, the function returns the resulting `Base64` string. The implementation is efficient and optimized for gas usage, making it suitable for use in Ethereum or any EVM based smart contracts.
+
+### References
+https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/Strings.sol
+https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/Context.sol
+https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/Address.sol
+https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/Base64.sol
