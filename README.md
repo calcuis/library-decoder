@@ -1,6 +1,6 @@
 # library Decoder
 
-This is a set of Solidity codes that defines a library and a contract. The library `Strings` provides utility functions for manipulating string data types, while the contract `Context` is an abstract contract that other contracts can inherit from to gain access to context information about the current transaction.
+This is a set of Solidity codes. At the very beginning, it defines a library and a contract. The library `Strings` provides utility functions for manipulating string data types, while the contract `Context` is an abstract contract that other contracts can inherit from to gain access to context information about the current transaction.
 
 The `Strings` library provides the following functions:
 
