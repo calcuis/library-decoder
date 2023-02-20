@@ -22,7 +22,7 @@ The `Context` contract defines two internal view functions:
 
 `_msgData`(): Returns the data payload of the current transaction.
 
-The `Address` library provides several low-level functions for working with Ethereum addresses, including:
+Another library `Address` provides several low-level functions for working with Ethereum addresses, including:
 
 `isContract`(address account): Checks whether an address corresponds to a contract or an externally-owned account.
 
@@ -44,7 +44,7 @@ The `Address` library provides several low-level functions for working with Ethe
 
 `functionDelegateCall`(address target, bytes memory data, string memory errorMessage): Calls a contract function using the delegatecall opcode and returns an error message if the call fails.
 
-The `Base64` library is used to encode binary data as a `Base64` string. It consists of a single function, encode, which takes a bytes type argument and returns a string type value.
+Last but not least, the `Base64` library is used to encode binary data as a `Base64` string. It consists of a single function, encode, which takes a bytes type argument and returns a string type value.
 
 The implementation of the encode function is based on a lookup table that maps the binary values to their Base64 equivalents. The table is defined as a constant string within the library.
 
